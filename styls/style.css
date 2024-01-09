@@ -1,0 +1,49 @@
+/*sharred style*/
+
+body{
+    font-family: 'lato',sans-serif;
+    font-family: font-family: 'Open Sans', sans-serif;;
+}
+.text-primary{
+    color: orangered;
+}
+.btn-primary{
+    border-radius: 5px;
+    background: orangered;
+    border: 0;
+    color: white;
+    font-size: 10px;
+    font-weight:20000px;
+    padding: 15px 35px;
+}
+
+/*nav related styles*/
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.nav-tittle{
+    color: black;
+    font-size:45px;
+line-height: normal;
+}
+nav > ul{
+    display: flex;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+    margin-right: 50px;
+}
+nav a{
+    text-decoration: none;
+      color: gray;
+}
+.header{
+    background-color: #FFF8F3;;
+}
+.banner{
+    padding: 30px 50px 150px;
+}
