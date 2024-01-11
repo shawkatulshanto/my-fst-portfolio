@@ -16,6 +16,20 @@ body{
     font-weight:20000px;
     padding: 15px 35px;
 }
+.section-tittle{
+    color:black;
+    text-align: center;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    font-height: normal;
+
+}
+.section-Drescription{
+    color: darkgray;
+    text-align: center;
+    font-size: 25px;
+}
 
 /*nav related styles*/
 nav{
@@ -43,12 +57,55 @@ nav a{
 }
 .header{
     background-color: #FFF8F3;;
+    background-image: url(/portfolio-resources-main/images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
+
+
 .banner{
-    padding: 30px 50px 150px;
+    padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 .banner.profile-pic{
     width: 100px;
+}
+.bannner-content{
+    max-width: 500px;
+
+}
+/* main section desing*/
+.about{
+    padding: 130px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    margin: 130px 0;
+}
+.main{
+    max-width: 1140;
+    margin: 0 auto;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+
+}
+.abou-info{
+    text-align: center;
+    margin: ;
+}
+
+
+.skils-container{
+    display: flex;
+
+}
+.skill-drescription{
+    
+}
+.skill{
+    padding: 30px;
+    gap: 10px;
 }
